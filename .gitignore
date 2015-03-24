@@ -5,14 +5,15 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+/rails/.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
-/tmp
+/rails/log/*
+!/rails/log/.keep
+/rails/tmp
 
 # Ignore application configuration
-/config/application.yml
+/rails/config/application.yml
 
 .DS_Store
+/rails/.DS_Store
